@@ -8,13 +8,13 @@ public class JedisTest {
 	public void test() {
 		
 		
-		// 1ã€è·å¾—è¿æ¥å¯¹è±¡
+		// 1¡¢»ñµÃÁ¬½Ó¶ÔÏó
 		Jedis jedis = JedisPoolUtils.getJedis();;
 		
-		// 2ã€è®¾ç½®æ•°æ®
+		// 2¡¢ÉèÖÃÊı¾İ
 		jedis.set("name", "haha");
 		
-		// 3ã€è·å–æ•°æ®
+		// 3¡¢»ñÈ¡Êı¾İ
 		System.out.println(jedis.get("name"));
 	}
 	
