@@ -12,7 +12,7 @@ public class JedisTest {
 		Jedis jedis = JedisPoolUtils.getJedis();;
 		
 		// 2、设置数据
-		jedis.set("name", "tom");
+		jedis.set("name", "haha");
 		
 		// 3、获取数据
 		System.out.println(jedis.get("name"));
