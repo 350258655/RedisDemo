@@ -8,13 +8,13 @@ public class JedisTest {
 	public void test() {
 		
 		
-		// 1、获得连接对象
+
 		Jedis jedis = JedisPoolUtils.getJedis();;
 		
-		// 2、设置数据
-		jedis.set("name", "haha");
+
+		jedis.set("name", "xixi");
 		
-		// 3、获取数据
+
 		System.out.println(jedis.get("name"));
 	}
 	
